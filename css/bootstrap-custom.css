@@ -1,0 +1,61 @@
+/* Custom with twitter bootstrap */
+.table-bordered.table--consapp {
+    border-color: #c0c0c0;
+}
+
+.table-bordered.table--consapp>tbody>tr>td,
+.table-bordered.table--consapp>tbody>tr>th,
+.table-bordered.table--consapp>tfoot>tr>td,
+.table-bordered.table--consapp>tfoot>tr>th,
+.table-bordered.table--consapp>thead>tr>td,
+.table-bordered.table--consapp>thead>tr>th {
+    border-color: #c0c0c0;
+}
+
+.table--no-border > thead > tr > th,
+.table--no-border > thead > tr > td,
+.table--no-border > tbody > tr > th,
+.table--no-border > tbody > tr > td,
+.table--no-border > tfoot > tr > th,
+.table--no-border > tfoot > tr > td {
+    border-top-width: 0;
+}
+
+/*.table>thead>tr>th*/
+.custom-btn-groups .btn + .btn {
+    margin-left: 20px;
+}
+
+.table-responsive table td {
+	vertical-align: middle !important;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	cursor: default;
+}
+
+.bg--green {
+    background-color: #009900;
+    color: #fff;
+}
+
+.bg--blue {
+    background-color: #0070C0;
+    color: #fff;
+}
+
+.bg--grey {
+    background-color: #808080;
+    color: #fff;
+}
+
+.bg--red {
+    background-color: red;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .btn--consapp {
+        min-width: 135px;
+    }
+}
